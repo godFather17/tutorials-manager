@@ -1,8 +1,12 @@
 spring:
   datasource:
-    password: mohamed
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: postgres
+    url: jdbc:postgresql://mafdbpgsrv.postgres.database.azure.com:5432/postgres
+    username: mohamed
+    password: Azure2022
+    #url: jdbc:postgresql://localhost:5432/postgres#url
+    #username: postgres
+    #password: mohamed
+    
   jpa:
     hibernate:
       ddl-auto: update
